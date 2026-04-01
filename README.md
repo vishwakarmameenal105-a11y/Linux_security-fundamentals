@@ -1,21 +1,16 @@
- 	## Prerequisites
+# Linux Security Fundamentals
+
+Python scripts to monitor, detect, and analyze Linux systems — starting with log analysis.
+
+## Prerequisites
 
 - **Linux** (Ubuntu, Debian, RHEL, etc.)
-- **Python 3** (usually pre-installed on most Linux distros)
+- **Python 3** (check with `python3 --version`)
 
-### Check if Python is installed
-
+If Python is not installed:
 ```bash
-python3 --version
+# Ubuntu/Debian
+sudo apt update && sudo apt install python3
 
-# Linux_security-fundamentals
-Basic scripts for log analysis, system monitoring, and detection — building from the ground up
-
-## Requirements
-- Linux (Ubuntu, Debian, RHEL, etc.)
-- Python 3
-- Access to `/var/log/auth.log` (requires sudo on some systems)
-
-## Usage
-```bash
-sudo python3 auth_parser.py /var/log/auth.log
+# RHEL/CentOS
+sudo yum install python3
