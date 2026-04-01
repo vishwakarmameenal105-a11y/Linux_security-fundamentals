@@ -1,3 +1,13 @@
+ 	## Prerequisites
+
+- **Linux** (Ubuntu, Debian, RHEL, etc.)
+- **Python 3** (usually pre-installed on most Linux distros)
+
+### Check if Python is installed
+
+```bash
+python3 --version
+
 # Linux_security-fundamentals
 Basic scripts for log analysis, system monitoring, and detection — building from the ground up
 
