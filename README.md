@@ -5,7 +5,7 @@ Python scripts to monitor, detect, and analyze Linux systems — starting with l
 ## Prerequisites
 
 - **Linux** (Ubuntu, Debian, RHEL, etc.)
-- **Python 3** (check with `python3 --version`)
+- **Python 3.14.4** (check with `python3 --version`)
 
 If Python is not installed:
 ```bash
