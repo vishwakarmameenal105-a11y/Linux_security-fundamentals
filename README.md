@@ -1,5 +1,3 @@
-# Linux security fundamentals
-
 Python scripts to monitor, detect, and analyze Linux systems — starting with log analysis.
 
 ## Prerequisites
